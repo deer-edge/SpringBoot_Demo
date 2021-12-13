@@ -19,5 +19,8 @@ public class Elephant{
 
     public void play(){
         System.out.println("大象卷鼻玩！");
+        System.out.println("pull me！");
+        System.out.println("pull me！");
+        System.out.println("pull me！");
     }
 }
