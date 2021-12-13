@@ -9,7 +9,7 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class Elephant{
+public class Elephant extends Animal{
     private int id;
     private String name;
     private int age;
@@ -22,5 +22,12 @@ public class Elephant{
         System.out.println("pull me！");
         System.out.println("pull me！");
         System.out.println("pull me！");
+    }
+
+    @Override
+    public void eat() {
+        super.eat();
+        System.out.println("象执行了动物的吃饭方法");
+
     }
 }

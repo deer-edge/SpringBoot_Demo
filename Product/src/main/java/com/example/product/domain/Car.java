@@ -9,7 +9,7 @@ import java.util.Date;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Car{
+public class Car extends Animal{
     private int id;
     private String name;
     private int age;
@@ -26,5 +26,11 @@ public class Car{
         System.out.println("猫吃鱼玩！3333    等着你pull我");
         
         System.out.println("github代码更新！！！！！");
+    }
+
+    @Override
+    public void eat() {
+        super.eat();
+        System.out.println("猫执行了动物的吃饭方法");
     }
 }
