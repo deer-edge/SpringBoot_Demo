@@ -19,5 +19,6 @@ public class Car {
 
     public void play(){
         System.out.println("猫吃鱼玩！");
+        System.out.println("猫吃鱼玩！1111");
     }
 }
