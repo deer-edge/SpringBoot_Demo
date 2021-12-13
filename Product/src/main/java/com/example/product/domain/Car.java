@@ -22,5 +22,7 @@ public class Car {
         System.out.println("猫吃鱼玩！0000");
         System.out.println("猫吃鱼玩！1111");
         System.out.println("猫吃鱼玩！2222");
+        
+        System.out.println("猫吃鱼玩！3333    等着你pull我");
     }
 }
