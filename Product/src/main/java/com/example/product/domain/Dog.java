@@ -7,9 +7,9 @@ import lombok.NoArgsConstructor;
 import java.util.Date;
 
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
-public class Car {
+@AllArgsConstructor
+public class Dog {
     private int id;
     private String name;
     private int age;
@@ -18,6 +18,6 @@ public class Car {
     private Date birthday;
 
     public void play(){
-        System.out.println("猫吃鱼玩！");
+        System.out.println("狗吃屎玩！");
     }
 }
