@@ -9,7 +9,7 @@ import java.util.Date;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Car {
+public class Car{
     private int id;
     private String name;
     private int age;
